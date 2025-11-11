@@ -7,7 +7,7 @@ mod example {
     ///
     /// ```
     /// let arg = 5;
-    /// let answer = crate_sample::example::add_one(arg);
+    /// let answer = crate_sample::add_one(arg); // We must call crate_sample::add_one instead of crate_sample::example::add_one because the example module is private, and only its function was re-exported publicly via pub use.
     ///
     /// assert_eq!(6, answer);
     /// ```
@@ -26,7 +26,7 @@ mod example2 {
     /// ```
     /// let arg = 5;
     /// let num = 10;
-    /// let answer = crate_sample::example2::add_any(arg, num);
+    /// let answer = crate_sample::add_any(arg, num); // Same as above, we must call crate_sample::add_any instead of crate_sample::example2::add_any because the example2 module is private, and only its function was re-exported publicly via pub use.
     ///
     /// assert_eq!(15, answer);
     /// ```
