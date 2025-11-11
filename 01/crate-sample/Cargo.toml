@@ -7,10 +7,6 @@ license = "GPL-3.0"
 
 [dependencies]
 
-[[bin]]
-name = "crate-sample-pdaj"
-path = "src/main.rs"
-
 [lib]
 name = "crate_sample"
 path = "src/lib.rs"
