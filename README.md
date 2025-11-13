@@ -1,23 +1,79 @@
 # Paralelne i distribuirane arhitekture i jezici
 
-- Alati:
-  - Kompajler: rustc
-  - Upravljač projektom i zavisnostima: cargo
-  - Ekstenzije: rust analyzer
+Ovaj repozitorijum sadrži materijal, primere koda i pomoćne resurse za
+kurs **Paralelne i distribuirane arhitekture i jezici**, sa fokusom na
+programski jezik **Rust**.
 
-- Plan rada po sedmicama:
-  1. (05.11.2025.) Bez održavanja vežbi
-  2. (12.11.2025.) Uvod, upravljanje projektom uz pomoć cargo-a
-  3. (19.11.2025.) Osnovni koncepti jezika Rust
-  4. (26.11.2025.) Vlasništvo
-  5. (03.12.2025.) Strukture, generički tipovi i enumeracije
-  6. (10.12.2025.) Životni vekovi, osobine, obrada grešaka
-  7. (17.12.2025.) Pametni pokazivači, closures, iteratori
-  8. (24.12.2025.) Često korišćene kolekcije (Vector, HashMap, HashSet), Pattern matching
-  9. (31.12.2025.) Upravljanje datotekama, SerDe, argumenti komandne linije
-  10. (14.01.2026.) Multithreading, async/await
-  11. (21.01.2026.) Priprema za kolokvijum
-  12. (28.01.2026.) Kolokvijum
-  13. (31.01.2026.) TBD
-  14. (04.02.2026.) TBD
-  15. (11.02.2026.) TBD
+## 🛠️ Alati
+
+- **Kompajler:** `rustc`
+- **Upravljač projektom i zavisnostima:** `cargo`
+- **Ekstenzije za razvojno okruženje:** Rust Analyzer
+
+## 📅 Plan rada po sedmicama
+
+| Datum          | Tema                                                        |
+|----------------|-------------------------------------------------------------|
+| **05.11.2025** | Nema održavanja vežbi                                       |
+| **12.11.2025** | Uvod, upravljanje projektom uz pomoć `cargo`-a              |
+| **19.11.2025** | Osnovni koncepti jezika Rust                                |
+| **26.11.2025** | Vlasništvo (Ownership)                                      |
+| **03.12.2025** | Strukture, generički tipovi i enumeracije                   |
+| **10.12.2025** | Životni vekovi (Lifetimes), osobine (Traits), obrada grešaka|
+| **17.12.2025** | Pametni pokazivači, closures, iteratori                     |
+| **24.12.2025** | Kolekcije (Vector, HashMap, HashSet), pattern matching      |
+| **31.12.2025** | Upravljanje datotekama, SerDe, argumenti komandne linije    |
+| **14.01.2026** | Multithreading, `async/await`                               |
+| **21.01.2026** | Priprema za kolokvijum                                      |
+| **28.01.2026** | Kolokvijum                                                  |
+| **31.01.2026** | TBD (Konsultacije)                                          |
+| **04.02.2026** | TBD (Konsultacije)                                          |
+| **11.02.2026** | TBD (Konsultacije)                                          |
+
+## 📚 Sadržaj repozitorijuma
+
+- Primeri koda po nedeljama\
+- Demonstracije jezika Rust\
+- Vežbe iz paralelizma i konkurentnosti\
+- Zadaci za pripremu za kolokvijum (*TODO*)\
+- Prezentacije sa vežbi (*TODO*)
+
+## 🚀 Kako početi
+
+1. Instalirati Rust alatke: <https://www.rust-lang.org/tools/install>
+
+2. Klonirati repozitorijum:
+
+    ``` bash
+    git clone <url-repozitorijuma>
+    ```
+
+3. Pokrenuti primer:
+
+    ``` bash
+    cargo run
+    ```
+
+## 🤝 Doprinos
+
+Slobodno otvorite **issue** ili **pull request** za predloge
+unapređenja, bugfixeve ili dodatne primere.
+Studenti su ohrabreni da doprinose svojim rešenjima, i biće nagrađeni u vidu dodatnih bodova.
+
+## Priznanje izvora (Attribution)
+
+Neki primeri i objašnjenja u ovom repozitorijumu prilagođeni su iz
+**Rust Book (Brown University edition)**, dostupnog na <https://rust-book.cs.brown.edu/>.
+
+Originalni sadržaj Rust Book-a je pod dvojnim licenciranjem **MIT OR Apache-2.0**,
+a svi izvedeni delovi u ovom repozitorijumu zadržavaju iste uslove licenciranja.
+
+## Licenca
+
+Ovaj projekat je licenciran pod jednom od sledećih licenci, po izboru:
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT License ([LICENSE-MIT](LICENSE-MIT))
+
+Delovi ovog rada zasnovani su na Rust Book-u (Brown University edition),
+koji je takođe licenciran pod uslovima **MIT OR Apache-2.0**.
