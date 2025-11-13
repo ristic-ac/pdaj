@@ -32,10 +32,10 @@ programski jezik **Rust**.
 
 ## 📚 Sadržaj repozitorijuma
 
-- Primeri koda po nedeljama\
-- Demonstracije jezika Rust\
-- Vežbe iz paralelizma i konkurentnosti\
-- Zadaci za pripremu za kolokvijum (*TODO*)\
+- Primeri koda po nedeljama
+- Demonstracije jezika Rust
+- Vežbe iz paralelizma i konkurentnosti
+- Zadaci za pripremu za kolokvijum (*TODO*)
 - Prezentacije sa vežbi (*TODO*)
 
 ## 🚀 Kako početi
