@@ -60,7 +60,7 @@ Slobodno otvorite **issue** ili **pull request** za predloge
 unapređenja, bugfixeve ili dodatne primere.
 Studenti su ohrabreni da doprinose svojim rešenjima, i biće nagrađeni u vidu dodatnih bodova.
 
-## Priznanje izvora (Attribution)
+## 🎓 Priznanje izvora (Attribution)
 
 Neki primeri i objašnjenja u ovom repozitorijumu prilagođeni su iz
 **Rust Book (Brown University edition)**, dostupnog na <https://rust-book.cs.brown.edu/>.
@@ -68,7 +68,7 @@ Neki primeri i objašnjenja u ovom repozitorijumu prilagođeni su iz
 Originalni sadržaj Rust Book-a je pod dvojnim licenciranjem **MIT OR Apache-2.0**,
 a svi izvedeni delovi u ovom repozitorijumu zadržavaju iste uslove licenciranja.
 
-## Licenca
+## 📄 Licenca
 
 Ovaj projekat je licenciran pod jednom od sledećih licenci, po izboru:
 
