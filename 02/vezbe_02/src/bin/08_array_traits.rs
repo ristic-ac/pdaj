@@ -7,19 +7,18 @@ use std::hash::{Hash, Hasher};
 fn main() {
     // Array demonstrating Copy and Clone
     let mut array1: [i32; 3] = [1, 2, 3];
-    let array2 = array1; // Copy occurs here
+    let array2 = array1; // Copy occurs here, because i32 implements Copy (stored on stack)
     let array3 = array1.clone(); // Clone occurs here
 
     println!("Array 1: {:?}", array1);
     println!("Array 2 (Copy of Array 1): {:?}", array2);
     println!("Array 3 (Clone of Array 1): {:?}", array3);
 
-    // PartialEq, Eq, PartialOrd, and Ord comparison
-    let array4 = [2; 3];
+    let array4: [i32; 3] = [2; 3];
     let array5: [i32; 3] = [1, 2, 3];
 
-    println!("Array 4 == Array 5: {}", array4 == array5); // PartialEq and Eq
-    println!("Array 4 > Array 5: {}", array4 > array5); // PartialOrd and Ord
+    println!("Array 4 == Array 5: {}", array4 == array5); // Eq
+    println!("Array 4 > Array 5: {}", array4 > array5); // Ord
 
     match array4.cmp(&array5) {
         Ordering::Less => println!("Array 4 is less than Array 5"),
@@ -27,15 +26,14 @@ fn main() {
         Ordering::Greater => println!("Array 4 is greater than Array 5"),
     }
 
-    // PartialEq, Eq, PartialOrd, and Ord comparison for floating point numbers
     let array8: [f64; 3] = [1.0, 2.0, 3.0];
     let array9: [f64; 3] = [1.0, 2.0, 4.0];
 
     // Resize array8
     // let array8: [f64; 3] = [1.0, 2.0, 3.0, 4.0];
 
-    println!("Array 8 == Array 9: {}", array8 == array9); // PartialEq and Eq
-    println!("Array 8 > Array 9: {}", array8 > array9); // PartialOrd and Ord
+    println!("Array 8 == Array 9: {}", array8 == array9); // PartialEq
+    println!("Array 8 > Array 9: {}", array8 > array9); // PartialOrd
 
     match array8.partial_cmp(&array9) {
         Some(Ordering::Less) => println!("Array 8 is less than Array 9"),
@@ -51,6 +49,7 @@ fn main() {
     println!("Hash of Array 1: {}", hash_value);
 
     // Demonstrating AsRef and AsMut
+    // Used predominantly for converting to references of other types
     let array6: [i32; 3] = [10, 20, 30];
     let slice_ref: &[i32] = array6.as_ref(); // AsRef
     println!("Array 6 as slice (AsRef): {:?}", slice_ref);
@@ -62,6 +61,7 @@ fn main() {
     println!("Array 7 as mutable slice (AsMut): {:?}", slice_mut);
 
     // Demonstrating Borrow and BorrowMut
+    // Used predominantly for looking up values in collections (like HashMap) by converting to references (String to &str)
     let borrowed_slice: &[i32] = array6.borrow(); // Borrow
     println!("Borrowed slice (Borrow): {:?}", borrowed_slice);
 
