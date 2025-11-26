@@ -12,23 +12,23 @@ programski jezik **Rust**.
 
 ## 📅 Plan rada po sedmicama
 
-| Datum          | Tema                                                        |
-|----------------|-------------------------------------------------------------|
-| **05.11.2025** | Nema održavanja vežbi                                       |
-| **12.11.2025** | Uvod, upravljanje projektom uz pomoć `cargo`-a              |
-| **19.11.2025** | Osnovni koncepti jezika Rust                                |
-| **26.11.2025** | Vlasništvo (Ownership)                                      |
-| **03.12.2025** | Strukture, generički tipovi i enumeracije                   |
-| **10.12.2025** | Životni vekovi (Lifetimes), osobine (Traits), obrada grešaka|
-| **17.12.2025** | Pametni pokazivači, closures, iteratori                     |
-| **24.12.2025** | Kolekcije (Vector, HashMap, HashSet), pattern matching      |
-| **31.12.2025** | Upravljanje datotekama, SerDe, argumenti komandne linije    |
-| **14.01.2026** | Multithreading, `async/await`                               |
-| **21.01.2026** | Priprema za kolokvijum                                      |
-| **28.01.2026** | Kolokvijum                                                  |
-| **31.01.2026** | TBD (Konsultacije)                                          |
-| **04.02.2026** | TBD (Konsultacije)                                          |
-| **11.02.2026** | TBD (Konsultacije)                                          |
+| Datum          | V | Tema                                                        |
+|----------------|---|-------------------------------------------------------------|
+| **05.11.2025** |   | Nema održavanja vežbi                                       |
+| **12.11.2025** | 1 | Uvod, upravljanje projektom uz pomoć `cargo`-a              |
+| **19.11.2025** | 2 | Osnovni koncepti jezika Rust                                |
+| **26.11.2025** | 3 | Vlasništvo (Ownership)                                      |
+| **03.12.2025** | 4 | Strukture, generički tipovi i enumeracije                   |
+| **10.12.2025** | 5 | Životni vekovi (Lifetimes), osobine (Traits), obrada grešaka|
+| **17.12.2025** | 6 | Pametni pokazivači, closures, iteratori                     |
+| **24.12.2025** | 7 | Kolekcije (Vector, HashMap, HashSet), pattern matching      |
+| **31.12.2025** | 8 | Upravljanje datotekama, SerDe, argumenti komandne linije    |
+| **14.01.2026** | 9 | Multithreading, `async/await`                               |
+| **21.01.2026** |   | Priprema za kolokvijum                                      |
+| **28.01.2026** |   | Kolokvijum                                                  |
+| **31.01.2026** |   | TBD (Konsultacije)                                          |
+| **04.02.2026** |   | TBD (Konsultacije)                                          |
+| **11.02.2026** |   | TBD (Konsultacije)                                          |
 
 ## 📚 Sadržaj repozitorijuma
 
