@@ -23,9 +23,9 @@ programski jezik **Rust**.
 | **17.12.2025** | 6 | Pametni pokazivači, closures, iteratori                     |
 | **24.12.2025** | 7 | Kolekcije (Vector, HashMap, HashSet), pattern matching      |
 | **31.12.2025** | 8 | Upravljanje datotekama, SerDe, argumenti komandne linije    |
-| **14.01.2026** | 9 | Multithreading, `async/await`                               |
-| **21.01.2026** |   | Priprema za kolokvijum                                      |
-| **28.01.2026** |   | Kolokvijum                                                  |
+| **14.01.2026** |   | Priprema za kolokvijum                                      |
+| **21.01.2026** |   | Kolokvijum                                                  |
+| **28.01.2026** | 9 | Multithreading, `async/await`                               |
 | **31.01.2026** |   | TBD (Konsultacije)                                          |
 | **04.02.2026** |   | TBD (Konsultacije)                                          |
 | **11.02.2026** |   | TBD (Konsultacije)                                          |
