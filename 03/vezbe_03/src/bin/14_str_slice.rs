@@ -19,6 +19,7 @@ fn main() {
     // `first_word` also works on references to `String`s, which are equivalent
     // to whole slices of `String`s
     let word = first_word(&my_string);
+    let word = first_word("zdravo svete");
 
     let my_string_literal = "hello world";
 

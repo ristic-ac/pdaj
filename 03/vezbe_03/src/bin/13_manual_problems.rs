@@ -14,6 +14,7 @@ fn main() {
     let mut s = String::from("hello world");
 
     let word = first_word(&s); // word will get the value 5
+    // let word = first_word("hello world"); // this wont work, because we expect &String
 
     s.clear(); // this empties the String, making it equal to ""
 
