@@ -20,6 +20,15 @@ impl<'a> ImportantExcerpt<'a> {
         println!("Announcement: {}", announcement);
         self.part
     }
+
+    // New method: stores a &'b str into self.part: &'a str
+    // Constraint 'b: 'a is required so the assigned reference is valid for 'a.
+    fn set_part_from<'b>(&'a mut self, new_part: &'b str)
+    where
+        'b: 'a,
+    {
+        self.part = new_part;
+    }
 }
 
 // Function that returns the first word from a string
