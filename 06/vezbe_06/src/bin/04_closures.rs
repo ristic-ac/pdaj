@@ -10,7 +10,7 @@ fn error_fnonce(list: &mut [Rectangle], value: String) {
 
     // Uncommenting this block will result in the error:
     // list.sort_by_key(|r| {
-    //     sort_operations_once.push(value); // Move occurs here
+    //     sort_operations_once.push(value); // Move occurs here. Adding move to the closure makes it FnOnce, but the compiler is still signaling root error, which is moving value.
     //     r.width
     // });
 

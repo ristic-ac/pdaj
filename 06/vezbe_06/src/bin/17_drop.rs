@@ -15,7 +15,7 @@ fn main() {
     let d = CustomSmartPointer {
         data: String::from("other stuff"),
     };
-    drop(c);
-    drop(d);
+    // drop(d);
+    // drop(c);
     println!("CustomSmartPointers created.");
 }

@@ -5,21 +5,32 @@ struct Rectangle {
 }
 
 fn main() {
-    // 1. Demonstrating FnOnce with a closure that moves a captured value
+    // 0. Demonstrating Fn with a closure that moves a captured value
     let value = String::from("I will be moved");
 
-    let closure_once = move || {
+    // Note: This is still Fn() because the value is moved into the closure and stays there, because its not consumed
+    let closure_with_move = move || {
         println!("FnOnce closure called: {}", value);
     };
 
-    // The closure will be called once and move the value out of the environment
-    closure_once(); // This will work
-    closure_once(); // This works as well
+    closure_with_move(); // This will work
+    closure_with_move(); // This works as well
 
     // let closure_twice = move || { // Error: value has been moved
     //     println!("FnOnce closure called: {}", value);
     // };
     // println!("value after move: {}", value);  // Error: value has been moved
+
+    // 1. Demonstrating FnOnce with a closure that moves a captured value
+    let value2 = String::from("I will be moved once");
+    let closure_once = move || {
+        println!("FnOnce closure called: {}", value2);
+        value2 // value2 is moved out here
+    };
+
+    closure_once(); // This will work
+    // closure_once(); // This won't work because value2 has been moved out of the closure
+
     // 2. Demonstrating FnMut with a closure that mutates a captured value
     let mut counter = 0;
 
