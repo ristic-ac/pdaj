@@ -93,7 +93,7 @@ fn main() {
     }
     println!("setting is now {:?}", setting_value);
 
-    // 7. Using .. in Complex Structures
+    // 7. Using .. in tuples
     let numbers = (2, 4, 8, 16, 32);
     match numbers {
         (first, .., last) => println!("First: {first}, Last: {last}"),
