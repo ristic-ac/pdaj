@@ -12,23 +12,23 @@ programski jezik **Rust**.
 
 ## 📅 Plan rada po sedmicama
 
-| Datum          | V   | Tema                                                         |
-| -------------- | --- | ------------------------------------------------------------ |
-| **05.11.2025** |     | Nema održavanja vežbi                                        |
-| **19.11.2025** | 1   | Uvod, upravljanje projektom uz pomoć `cargo`-a               |
-| **26.11.2025** | 2   | Osnovni koncepti jezika Rust                                 |
-| **03.12.2025** | 3   | Vlasništvo (Ownership)                                       |
-| **10.12.2025** | 4   | Strukture, generički tipovi i enumeracije                    |
-| **24.12.2025** | 5   | Životni vekovi (Lifetimes), osobine (Traits), obrada grešaka |
-| **26.12.2025** | 6   | Pametni pokazivači, closures, iteratori                      |
-| **31.12.2025** | 7   | Kolekcije (Vector, HashMap, HashSet), pattern matching       |
-| **14.12.2025** | 8   | Upravljanje datotekama, SerDe, argumenti komandne linije     |
-| **21.01.2026** |     | Priprema za kolokvijum                                       |
-| **24.01.2026** |     | Kolokvijum                                                   |
-| **28.01.2026** | 9   | Multithreading, `async/await`                                |
-| **31.01.2026** |     | TBD (Konsultacije)                                           |
-| **04.02.2026** |     | TBD (Konsultacije)                                           |
-| **11.02.2026** |     | TBD (Konsultacije)                                           |
+| Datum          | V   | Tema                                                                                     |
+| -------------- | --- | ---------------------------------------------------------------------------------------- |
+| **05.11.2025** |     | Nema održavanja vežbi                                                                    |
+| **19.11.2025** | 1   | Uvod, upravljanje projektom uz pomoć `cargo`-a                                           |
+| **26.11.2025** | 2   | Osnovni koncepti jezika Rust                                                             |
+| **03.12.2025** | 3   | Vlasništvo (Ownership)                                                                   |
+| **10.12.2025** | 4   | Strukture, generički tipovi i enumeracije                                                |
+| **24.12.2025** | 5   | Životni vekovi (Lifetimes), osobine (Traits), obrada grešaka                             |
+| **26.12.2025** | 6   | Pametni pokazivači, closures, iteratori                                                  |
+| **31.12.2025** | 7   | Sistemsko programiranje                                                                  |
+| **14.12.2025** | 8   | Upravljanje datotekama, SerDe, argumenti komandne linije, kolekcije, pattern matching    |
+| **21.01.2026** |     | Priprema za kolokvijum                                                                   |
+| **24.01.2026** |     | Kolokvijum                                                                               |
+| **28.01.2026** | 9   | Multithreading, `async/await`                                                            |
+| **31.01.2026** |     | TBD (Konsultacije)                                                                       |
+| **04.02.2026** |     | TBD (Konsultacije)                                                                       |
+| **11.02.2026** |     | TBD (Konsultacije)                                                                       |
 
 ## 📚 Sadržaj repozitorijuma
 
