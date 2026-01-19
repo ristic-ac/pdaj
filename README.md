@@ -69,6 +69,12 @@ rustup component add rust-docs --toolchain "$VER"
 rustup +"$VER" doc
 ```
 
+Nakon instalacije, HTML dokumentacija se nalazi na sledećoj putanji:
+
+`~/.rustup/toolchains/1.75.0-<arch>/share/doc/rust/html/index.html`
+
+Primer za x86_64 Linux: `~/.rustup/toolchains/1.75.0-x86_64-unknown-linux-gnu/share/doc/rust/html/index.html`
+
 ## 🤝 Doprinos
 
 Slobodno otvorite **issue** ili **pull request** za predloge
