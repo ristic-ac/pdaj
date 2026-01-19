@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum sadrži materijal, primere koda i pomoćne resurse za
 kurs **Paralelne i distribuirane arhitekture i jezici**, sa fokusom na
-programski jezik **Rust**.
+programski jezik **Rust** i njegovo korišćenje za paralelizaciju algoritama.
 
 ## 🛠️ Alati
 
