@@ -19,6 +19,8 @@ fn main() {
             tx1.send(message).unwrap();
             thread::sleep(Duration::from_millis(500)); // Simulate work
         }
+
+        // println!("{messages:?}"); // Cannot print because ownership has been transferred to reciever
     });
 
     thread::spawn(move || {

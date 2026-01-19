@@ -4,4 +4,23 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+libc = "0.2.180"
 trpl = "0.2.0"
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "acq_rel"
+path = "src/bin/10a_acq_rel.rs"
+
+[[bin]]
+name = "acq_rel_acqrel_fence"
+path = "src/bin/10b_acq_rel_acqrel_fence.rs"
+
+
+[[bin]]
+name = "acq_rel_seqcst_fence"
+path = "src/bin/10c_acq_rel_seqcst_fence.rs"
+
+[[bin]]
+name = "seq_cst"
+path = "src/bin/10d_seq_cst.rs"

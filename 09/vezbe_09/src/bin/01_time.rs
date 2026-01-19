@@ -5,7 +5,8 @@ fn main() {
     let data = vec![10, 20, 30, 40, 50];
 
     // Spawn a new thread to process data
-    let handle = thread::spawn(move || {
+    let handle = thread::spawn(/* move */|| {
+        // We must use 'move' to transfer ownership of 'data' to the new thread. Although, we dont have to move it manually, because iterating over it consumes it, therefore moving it is implicit.
         for value in data {
             println!("Processing value {} in the spawned thread.", value);
             thread::sleep(Duration::from_millis(100));
