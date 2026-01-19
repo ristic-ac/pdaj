@@ -6,8 +6,8 @@ programski jezik **Rust** i njegovo korišćenje za paralelizaciju algoritama.
 
 ## 🛠️ Alati
 
-- **Kompajler:** `rustc`
-- **Upravljač projektom i zavisnostima:** `cargo`
+- **Kompajler:** `rustc` (v1.75.0 se koristi u laboratoriji)
+- **Upravljač projektom i zavisnostima:** `cargo`  (v1.75.0 se koristi u laboratoriji)
 - **Ekstenzije za razvojno okruženje:** Rust Analyzer
 
 ## 📅 Plan rada po sedmicama
@@ -53,6 +53,21 @@ programski jezik **Rust** i njegovo korišćenje za paralelizaciju algoritama.
    ```bash
    cargo run
    ```
+
+## 📖 Lokalna dokumentacija
+
+Za rad u laboratorijskom okruženju koristi se specifična verzija jezika (1.75.0). Dokumentaciju je moguće instalirati lokalno radi pristupa bez internet veze.
+
+### Instalacija
+
+Pokrenuti sledeće komande u terminalu:
+
+```bash
+VER=1.75.0
+rustup toolchain install "$VER" --component rust-docs
+rustup component add rust-docs --toolchain "$VER"
+rustup +"$VER" doc
+```
 
 ## 🤝 Doprinos
 
