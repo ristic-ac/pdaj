@@ -35,7 +35,7 @@ programski jezik **Rust** i njegovo korišćenje za paralelizaciju algoritama.
 - Primeri koda po nedeljama
 - Demonstracije jezika Rust
 - Vežbe iz paralelizma i konkurentnosti
-- Zadaci za pripremu za kolokvijum (_TODO_)
+- Zadaci za pripremu za kolokvijum
 - Prezentacije sa vežbi (_TODO_)
 
 ## 🚀 Kako početi
